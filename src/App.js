@@ -15,10 +15,10 @@ class App extends React.Component {
                   <Link to="/mri/">Home</Link>
                 </li>
                 <li>
-                <Link to="/mri/about">About</Link>
+                <Link to="/mri/About">About</Link>
                 </li>
                 <li>
-                <Link to="/mri/contact">Contact</Link>
+                <Link to="/mri/Contact">Contact</Link>
                 </li>
               </ul>
             </nav>
@@ -27,7 +27,7 @@ class App extends React.Component {
             <Route exact path="/mri/">
               <Home />
             </Route>
-            <Route path="/mri/about">
+            <Route path="/mri/About">
               <About />
             </Route>
           </Switch>
